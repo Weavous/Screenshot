@@ -14,6 +14,13 @@ class MediaTrack {
     static USER = "user";
 
     /**
+     * Url.
+     * 
+     * @var string
+     */
+    static SERVER = "save_photos.php";
+
+    /**
      * Constructor.
      * 
      * @param {Void}
@@ -35,7 +42,7 @@ class MediaTrack {
     post(ImageBase64) {
         const HTTPRequest = new XMLHttpRequest();
 
-        HTTPRequest.open("POST", "save_photos.php", true);
+        HTTPRequest.open("POST", MediaTrack.SERVER, true);
         HTTPRequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
 
         HTTPRequest.onload = function () {
