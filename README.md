@@ -1,6 +1,18 @@
-<h2 align="center">Screenshot</h2>
+<p align="center"><img src="webcam_78357.svg" width="200"></p>
 
-<p align="center">Development of an image upload via webcam</p>
+<p align="center">Development of an image upload via 📷 webcam</p>
+
+<p align="center">
+    <a href="#">
+        <img alt="License" src="https://img.shields.io/github/license/Weavous/Screenshot">
+    </a>
+    <a href="#">
+        <img alt="License" src="https://img.shields.io/github/languages/count/Weavous/Screenshot">
+    </a>
+    <a href="#">
+        <img alt="License" src="https://img.shields.io/github/last-commit/Weavous/Screenshot">
+    </a>
+</p>
 
 <h6 align="center">Docker</h6>
 
