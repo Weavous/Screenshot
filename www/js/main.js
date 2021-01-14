@@ -1,3 +1,10 @@
+class MediaTrackConstraints { }
+
+class HTTP {
+    /** @var string */
+    static POST = "POST";
+}
+
 class MediaTrack {
     /**
      * Back.
@@ -42,7 +49,7 @@ class MediaTrack {
     post(ImageBase64) {
         const HTTPRequest = new XMLHttpRequest();
 
-        HTTPRequest.open("POST", MediaTrack.SERVER, true);
+        HTTPRequest.open(HTTP.POST, MediaTrack.SERVER, true);
         HTTPRequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
 
         HTTPRequest.onload = function () {
